@@ -1,8 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
 
+
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #60a3bc;
     font-family:'Poppins', sans-serif;;
     text-align: center;
     margin: 0;
+}
+
+form {
+    background-color: antiquewhite;
+    box-shadow: 2px 5px 10px rgb(0, 0, 0, 0.4);
+    border-radius: 2px;
+    padding: 30px 20px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-control label {
+    margin-bottom: 6px;
+    display: block;
+}
+
+.form-control input {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 100%;
 }
